@@ -12,8 +12,8 @@ This project is an Angular-based backend application that provides a user manage
 5. [API Endpoints](#api-endpoints)
 6. [Usage Example](#usage-example)
 7. [Maven Configuration](#maven-configuration)
-8. [Contributing](#contributing)
-9. [License](#license)
+<!--8. [Contributing](#contributing)
+9. [License](#license)-->
 
 ## Technologies Used
 
@@ -116,3 +116,9 @@ Here's an example of how to create a new user using `curl`:
 curl -X POST http://localhost:8080/api/v1/users \
   -H "Content-Type: application/json" \
   -d '{"username": "newuser", "password": "Password123@"}'
+
+<!-- Contributing
+If you'd like to contribute to this project, please fork the repository and submit a pull request. All contributions are welcome!
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details. -->
