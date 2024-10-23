@@ -2,15 +2,18 @@
 
 This project is an Angular-based backend application that provides a user management API. It allows you to create, read, and manage user data stored in a MySQL database. The application is built using Spring Boot, Hibernate, and JPA.
 
+**Note:** This project is still in progress. The backend functionality is fully implemented, but the front-end is currently under development.
+
 ## Table of Contents
 1. [Technologies Used](#technologies-used)
 2. [Features](#features)
-3. [Setup Instructions](#setup-instructions)
-4. [API Endpoints](#api-endpoints)
-5. [Usage Example](#usage-example)
-6. [Maven Configuration](#maven-configuration)
-7. [Contributing](#contributing)
-8. [License](#license)
+3. [Learning Opportunities](#learning-opportunities)
+4. [Setup Instructions](#setup-instructions)
+5. [API Endpoints](#api-endpoints)
+6. [Usage Example](#usage-example)
+7. [Maven Configuration](#maven-configuration)
+8. [Contributing](#contributing)
+9. [License](#license)
 
 ## Technologies Used
 
@@ -29,6 +32,19 @@ This project is an Angular-based backend application that provides a user manage
 - CRUD operations for user management.
 - Pagination support for retrieving users.
 - Uses H2 database for runtime testing.
+
+## Learning Opportunities
+
+Working with this project will give you hands-on experience with:
+
+1. **Spring Boot**: Learn how to build a RESTful API with Spring Boot and configure it to use JPA for database interaction.
+2. **Hibernate JPA**: Understand how to map Java objects to database tables and manage database operations.
+3. **MySQL**: Get comfortable configuring and interacting with MySQL databases in a Spring Boot project.
+4. **API Design**: Explore how to design and implement user management APIs with pagination and validation.
+5. **Maven**: Learn how to manage dependencies, build, and run your project with Maven.
+6. **Lombok**: Simplify Java code using Lombok annotations for getter, setter, and constructor generation.
+7. **Pagination**: Discover how to implement pagination in REST APIs to handle large datasets.
+8. **Front-End Integration** (Coming Soon): In the next phase, the front-end of this application will be built using Angular. You’ll learn how to integrate the backend with Angular and create a full-stack application.
 
 ## Setup Instructions
 
